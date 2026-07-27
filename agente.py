@@ -42,7 +42,7 @@ def cargar_agente():
         VECTORSTORE_PATH, embeddings, allow_dangerous_deserialization=True
     )
 
-    llm = ChatGoogleGenerativeAI(model="gemini-flash-latest", temperature=0.2)
+    llm = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite", temperature=0.2)
 
     prompt = PromptTemplate(
         template=PROMPT_TEMPLATE, input_variables=["context", "question"]
