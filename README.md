@@ -166,6 +166,12 @@ Pasos seguidos para el deploy:
 
 6. Se accede a la aplicación desde `http://<IP_PUBLICA_INSTANCIA>:8000`.
 
+**Conversaciones reales con el agente desplegado:**
+
+![Conversación sobre la jornada de trabajo](docs/captura-conversacion-2.png)
+
+![Conversación sobre faltas graves](docs/captura-conversacion-1.png)
+
 ## Estructura del repositorio
 
 ```
